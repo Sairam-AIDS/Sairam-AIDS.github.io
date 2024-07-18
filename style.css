@@ -32,7 +32,7 @@ body {
 
 .left {
     flex: 1;
-    background: url('#') no-repeat center center;
+    background: url('event.jpg') no-repeat center center;
     background-size: cover;
 }
 
@@ -42,4 +42,39 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.right h1, .right h2, .right p, .right ul, .right .contact, .right button {
+    margin: 10px 0;
+}
+
+.right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.right ul li {
+    background: #333;
+    margin: 5px 0;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.right .contact a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.right button {
+    padding: 10px 20px;
+    background: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.right button:hover {
+    background: #1c7ec6;
 }
