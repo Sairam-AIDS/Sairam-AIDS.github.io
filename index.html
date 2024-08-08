@@ -3,34 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event Page</title>
+    <title>Code And Bid</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="script.js" defer></script>
 </head>
 <body>
     <div id="particles-js"></div>
     <div class="container">
         <div class="left">
-            <!-- Image -->
+            <img src="nura.jpg" alt="Event Image">
         </div>
         <div class="right">
-            <h1>Name of the Event</h1>
-            <p id="description">Description</p>
+            <h1>Code and Bid</h1>
+            <p id="description"><h2>Where Quick Thinking meets Swift Coding! </h2><br>Get ready for a high-stakes challenge where strategy meets coding skills. Form teams of two and get set for a unique twist: one teammate bids on how quickly the other can solve a coding problem. If they hit the mark, they earn points; if not, points are deducted. The team that bids the least time earns extra credits. It's a race against the clock to prove your coding prowess and strategic thinking!</p>
             <h2>Guidelines/Rules</h2>
             <ul id="guidelines">
-                <li>Rule 1</li>
-                <li>Rule 2</li>
-                <li>Rule 3</li>
+                <li>A team of 2 is mandatory, one bids and the other code.</li>
+                <li>For each question, the roles of bidder and coder will be alternated. For example, for the first question, one teammate will bid while the other codes. For the second question, they will switch roles.</li>
+                <li>The time bid by the bidder will not be shared with the coder. Therefore, the coder must complete the task without knowledge of the bid time.</li>
+                <li>Points will be awarded to the first 5 teams that solve the code, based on the time taken by them in decreasing order. The team that completes the task first will receive the maximum points, and so on.</li>
+                <li>Once a question has been solved by at least 5 teams, it becomes invalid, and the remaining teams must move on to the next question.</li>
+                <li>Additionally, if the coder completes the coding question within the time bid by their teammate, the team will be awarded points. If the coder takes more time than the bid time, points will be deducted.</li>
             </ul>
-            <p><strong>Venue:</strong> <span id="venue">Location</span></p>
-            <p><strong>Registeration Amount:</strong> <span id="register-amount">0₹</span></p>
-            <div class="contact">
-                <h2>Contact for Query</h2>
-                <p>Email: <a href="mailto:mail id">kratos@greek.com</a></p>
-                <p>Phone: <a href="tel:ph no">+1234567890</a></p>
+            <p><strong>Venue:</strong> <span id="venue">INTEL Lab - A block, First Floor</span></p>
+            <div>
+                <center>
+                    <h2>Event Co-ordinators</h2>
+                    <h2>Contact for Query</h2>
+                </center>
             </div>
-            <button id="register-button">Register Now</button>
+            <div class="contact">
+                <div>
+                    <div>
+                        <img src="nura.jpg" alt="" class="section"><h3>Arun Nehru.s</h3>
+                        <p>Email: <a href="mailto:kratos@greek.com">kratos@greek.com</a></p>
+                        <p>Phone: <a href="tel:+1234567890">+1234567890</a></p>
+                    </div>
+                    <div>
+                        <img src="nura.jpg" alt="" class="section"><h3>Arun Nehru.s</h3>
+                        <p>Email: <a href="mailto:kratos@greek.com">kratos@greek.com</a></p>
+                        <p>Phone: <a href="tel:+1234567890">+1234567890</a></p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="nura.jpg" alt="" class="section"><h3>Arun Nehru.s</h3>
+                        <p>Email: <a href="mailto:kratos@greek.com">kratos@greek.com</a></p>
+                        <p>Phone: <a href="tel:+1234567890">+1234567890</a></p>
+                    </div>
+                    <div>
+                        <img src="nura.jpg" alt="" class="section"><h3>Arun Nehru.s</h3>
+                        <p>Email: <a href="mailto:kratos@greek.com">kratos@greek.com</a></p>
+                        <p>Phone: <a href="tel:+1234567890">+1234567890</a></p>
+                    </div>
+                </div>
+            </div>
+            <button id="register-button" style="width: 200px; left: 35%;">Register Now</button>
         </div>
     </div>
 </body>
